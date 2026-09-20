@@ -150,7 +150,7 @@ export default function SiteHeader() {
       {
         key: "contact",
         text: navigation.contact_text,
-        link: navigation.contact_link,
+        link: "/iletisim",
         visible: navigation.contact_visible,
         sort: navigation.contact_sort,
       },

@@ -14,6 +14,7 @@ export default function SettingsPage() {
     whatsapp: "",
     email: "",
     address: "",
+    map_address: "",
     working_hours: "",
     instagram_url: "",
     facebook_url: "",
@@ -77,6 +78,7 @@ export default function SettingsPage() {
           whatsapp: data.whatsapp || "",
           email: data.email || "",
           address: data.address || "",
+          map_address: data.map_address || "",
           working_hours: data.working_hours || "",
           instagram_url: data.instagram_url || "",
           facebook_url: data.facebook_url || "",
@@ -370,6 +372,14 @@ export default function SettingsPage() {
                     placeholder="Klinik adresi..."
                   />
                 </div>
+
+                <Field
+                  label="Harita / Yol Tarifi Adresi"
+                  name="map_address"
+                  value={form.map_address}
+                  onChange={handleChange}
+                  placeholder="Taşpazar Mah. Pir Ali Sultan Cad. Nazmiye Hatun Apt. No: 5/A, 68100 Aksaray Merkez/Aksaray"
+                />
 
                 <Field
                   label="Çalışma Saatleri"

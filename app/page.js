@@ -825,6 +825,7 @@ export default function HomePage() {
                 </div>
               )}
             </div>
+
           </div>
         </div>
         </section>
@@ -1954,6 +1955,7 @@ export default function HomePage() {
           text-decoration: none;
           font-size: 12px;
         }
+
 
         /* FOOTER */
 
